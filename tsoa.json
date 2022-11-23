@@ -1,0 +1,21 @@
+{
+  "entryFile": "src/App.ts",
+  "noImplicitAdditionalProperties": "throw-on-extras",
+  "controllerPathGlobs": ["src/**/*Controller.ts"],
+  "spec": {
+    "outputDirectory": "build",
+    "specVersion": 3,
+    "tags": [
+      {
+        "name": "Example Tag",
+        "description": "Example Tag"
+      }
+    ]
+  },
+  "routes": {
+    "routesDir": "build",
+    "middleware": "koa",
+    "basePath": "/",
+    "noWriteIfUnchanged": true
+  }
+}
